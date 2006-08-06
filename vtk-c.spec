@@ -1,5 +1,5 @@
-Summary:	vtk - virtual Tomasz K這czko in C
-Summary(pl):	vtk - wirtualny Tomasz K這czko w C
+Summary:	vtk-c - virtual Tomasz K這czko in C
+Summary(pl):	vtk-c - wirtualny Tomasz K這czko w C
 Name:		vtk-c
 Version:	0.1
 Release:	1
