@@ -8,7 +8,6 @@ Group:		Applications
 Source0:	http://entermedia.pl/~shadzik/vtk/%{name}-%{version}.tar.gz
 # Source0-md5:	390ecfbb0a7e0be5d047d2aec2b2e48d
 URL:		http://entermedia.pl/~shadzik/vtk/
-BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
