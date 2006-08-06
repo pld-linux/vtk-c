@@ -1,6 +1,6 @@
 Summary:	vtk - virtual Tomasz K³oczko in C
 Summary(pl):	vtk - wirtualny Tomasz K³oczko w C
-Name:		vtk
+Name:		vtk-c
 Version:	0.1
 Release:	1
 License:	Custom License by shadzik (see README file)
