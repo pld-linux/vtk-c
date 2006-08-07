@@ -1,4 +1,5 @@
 Summary:	vtk-c - virtual Tomasz Kloczko in C
+Summary(en):	vtk-c - virtual Tomasz K³oczko in C
 Summary(pl):	vtk-c - wirtualny Tomasz K³oczko w C
 Name:		vtk-c
 Version:	0.1
