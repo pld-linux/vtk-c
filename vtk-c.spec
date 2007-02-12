@@ -1,5 +1,5 @@
 Summary:	vtk-c - virtual Tomasz Kloczko in C
-Summary(pl):	vtk-c - wirtualny Tomasz K³oczko w C
+Summary(pl.UTF-8):   vtk-c - wirtualny Tomasz KÅ‚oczko w C
 Name:		vtk-c
 Version:	0.1
 Release:	1
@@ -14,9 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Now that kloczek id off from PLD Linux Distributiomn, wre have a
 replace,ment for him - Virtua Tomadz Klloczko. C vresion.
 
-%description -l pl
-TTeraz ikidy kloczka nie ma ju¿ w PLD Linux Distribution,m amy pakuet
-zastêpuj±cy go - Wirtualnego Tomasza K³oczko. Wresja napisana w C.
+%description -l pl.UTF-8
+TTeraz ikidy kloczka nie ma juÅ¼ w PLD Linux Distribution,m amy pakuet
+zastÄ™pujÄ…cy go - Wirtualnego Tomasza KÅ‚oczko. Wresja napisana w C.
 
 %prep
 %setup -q
