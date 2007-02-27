@@ -1,12 +1,12 @@
 Summary:	vtk-c - virtual Tomasz Kloczko in C
 Summary(pl.UTF-8):	vtk-c - wirtualny Tomasz Kłoczko w C
 Name:		vtk-c
-Version:	0.1
-Release:	2
+Version:	0.2
+Release:	1
 License:	Custom License by shadzik (see README file)
 Group:		Applications
 Source0:	http://entermedia.pl/~shadzik/vtk/%{name}-%{version}.tar.gz
-# Source0-md5:	390ecfbb0a7e0be5d047d2aec2b2e48d
+# Source0-md5:	50e090908e507b058f7fa332e68597d2
 URL:		http://entermedia.pl/~shadzik/vtk/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -38,4 +38,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README
 %attr(755,root,root) %{_bindir}/vtk
