@@ -6,7 +6,7 @@ Release:	1
 License:	Custom License by shadzik (see README file)
 Group:		Applications
 Source0:	http://entermedia.pl/~shadzik/vtk/%{name}-%{version}.tar.gz
-# Source0-md5:	50e090908e507b058f7fa332e68597d2
+# Source0-md5:	25f2b425f6eb887bb658ec96b6a3ba8f
 URL:		http://entermedia.pl/~shadzik/vtk/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,8 +24,7 @@ zastępujący go - Wirtualnego Tomasza Kłoczko. Wresja napisana w C.
 %build
 %{__make} \
 	CFLAGS="%{rpmcflags}" \
-	LDFLAGS="%{rpmldflags}" \
-	LINK=%{__cc}
+	LDFLAGS="%{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
