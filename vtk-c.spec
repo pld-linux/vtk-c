@@ -24,7 +24,8 @@ zastępujący go - Wirtualnego Tomasza Kłoczko. Wresja napisana w C.
 %build
 %{__make} \
 	CFLAGS="%{rpmcflags}" \
-	LDFLAGS="%{rpmldflags}"
+	LDFLAGS="%{rpmldflags}" \
+	LINK=%{__cc}
 
 %install
 rm -rf $RPM_BUILD_ROOT
