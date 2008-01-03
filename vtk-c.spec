@@ -23,6 +23,7 @@ zastępujący go - Wirtualnego Tomasza Kłoczko. Wresja napisana w C.
 
 %build
 %{__make} \
+	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags}" \
 	LDFLAGS="%{rpmldflags}"
 
