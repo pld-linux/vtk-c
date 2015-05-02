@@ -2,7 +2,7 @@ Summary:	vtk-c - virtual Tomasz Kloczko in C
 Summary(pl.UTF-8):	vtk-c - wirtualny Tomasz Kłoczko w C
 Name:		vtk-c
 Version:	0.2
-Release:	1
+Release:	2
 License:	Custom License by shadzik (see README file)
 Group:		Applications
 Source0:	http://entermedia.pl/~shadzik/vtk/%{name}-%{version}.tar.gz
